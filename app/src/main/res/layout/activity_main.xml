@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="camera"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/read_storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read storage"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/write_storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write storage"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/read_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="READ CALENDAR"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/write_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write calendar"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/read_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read contacts"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/write_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write contacts"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/record_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="record audio"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/read_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read sms"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/send_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send sms"
+        />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/access_background_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACCESS BACKGROUND LOCATION"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/access_coarse_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACCESS COARSE LOCATION"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/access_fine_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACCESS FINE LOCATION"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/openSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open settings"
+        />
+</LinearLayout>
